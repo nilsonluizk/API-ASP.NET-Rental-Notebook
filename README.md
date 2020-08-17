@@ -18,6 +18,9 @@
 ```html
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-package Microsoft.AspNetCore.Authentication
+Install-package Microsoft.AspNetCore.Authentication.JwtBearer
+Install-package --version 5.5.0 Swashbuckle.AspNetCore
 ```
 
 
