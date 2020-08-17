@@ -1,4 +1,4 @@
-# Rental system API ##
+# Rental Notebook API ##
 
 ## Problemática:
 1.	Desenvolver API para um sistema de locação de Notebook.
