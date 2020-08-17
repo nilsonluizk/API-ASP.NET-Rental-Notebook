@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\nilso\source\repos\WebAPINotebook\WebAPINotebook\WebAPINotebook.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200816210132_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200816210132_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200816210848_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200816210848_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200816211145_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200816211145_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200816220953_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200816220953_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200816222458_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200816222458_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200816223013_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200816223013_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200817015215_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200817015215_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200817021904_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200817021904_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200817070852_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200817070852_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200817074150_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200817074150_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+
+</Project>
