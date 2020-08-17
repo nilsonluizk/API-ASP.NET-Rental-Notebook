@@ -1,5 +1,5 @@
 # Rental system API ##
-#
+
 ## Problemática:
 1.	Desenvolver API para um sistema de locação de Notebook.
 #
@@ -15,7 +15,6 @@
 3.	Deve haver autenticação para acessar a API
 4.	Precisamos de um script SQL para consulta de produtos, se o mesmo está alocado com algum cliente, e qual a data prevista de devolução. Deve ser apresentada/explicada a “Query”, no dia que será realizada a apresentação.
 ## Pacotes utilizados:
-
 ```html
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.Tools
