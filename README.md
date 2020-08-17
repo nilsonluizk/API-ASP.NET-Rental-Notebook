@@ -27,7 +27,7 @@ $ Install-package --version 5.5.0 Swashbuckle.AspNetCore
 SELECT
 	AN.NOMELOCADOR, 
 	N.NOTEBOOKS,
-	N.VALORALUGUEL,
+	AN.VALORALUGUEL,
 	AN.DATADEVOLUCAO,
 	CASE 
 		WHEN AN.ESTAALUGADO = 1 THEN 'SIM' ELSE 'NÃO' END AS 'ESTAALUGADO'
@@ -39,4 +39,13 @@ FROM
 ```html
 WHERE
 	N.NOTEBOOKS = 'RAZER' 
+```
+## Autenticação/Autorização
+1.	Acesse a rota/login
+2.	Insira os valores no formato JSON que estão na classe /Models/User
+3.	Será gerado Token
+4.	Insira no Postman para acessar a rota com autorização
+-Exemplo
+```html
+{ "username": "Fagner", "password": "Fagner" }
 ```
