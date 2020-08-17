@@ -16,11 +16,27 @@
 4.	Precisamos de um script SQL para consulta de produtos, se o mesmo está alocado com algum cliente, e qual a data prevista de devolução. Deve ser apresentada/explicada a “Query”, no dia que será realizada a apresentação.
 ## Pacotes utilizados:
 ```html
-Install-Package Microsoft.EntityFrameworkCore.SqlServer
-Install-Package Microsoft.EntityFrameworkCore.Tools
-Install-package Microsoft.AspNetCore.Authentication
-Install-package Microsoft.AspNetCore.Authentication.JwtBearer
-Install-package --version 5.5.0 Swashbuckle.AspNetCore
+$ Install-Package Microsoft.EntityFrameworkCore.SqlServer
+$ Install-Package Microsoft.EntityFrameworkCore.Tools
+$ Install-package Microsoft.AspNetCore.Authentication
+$ Install-package Microsoft.AspNetCore.Authentication.JwtBearer
+$ Install-package --version 5.5.0 Swashbuckle.AspNetCore
 ```
-
-
+## Query SQL consulta de produtos, se está alocado com algum cliente e data prevista de devolução:
+```html
+SELECT
+	AN.NOMELOCADOR, 
+	N.NOTEBOOKS,
+	N.VALORALUGUEL,
+	AN.DATADEVOLUCAO,
+	CASE 
+		WHEN AN.ESTAALUGADO = 1 THEN 'SIM' ELSE 'NÃO' END AS 'ESTAALUGADO'
+FROM  
+	ALUGARNOTEBOOKS	AN
+	INNER JOIN NOTEBOOKS N ON N.ID = AN.NOTEBOOKID
+```
+- Consultar clientes que estão com determinado Notebook. Inserir junto da Query acima.
+```html
+WHERE
+	N.NOTEBOOKS = 'RAZER' 
+```
