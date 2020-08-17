@@ -45,7 +45,8 @@ WHERE
 2.	Insira os valores no formato JSON que estão na classe /Models/User
 3.	Será gerado Token
 4.	Insira no Postman para acessar a rota com autorização
--Exemplo
+
+ - Exemplo
 ```html
 { "username": "Fagner", "password": "Fagner" }
 ```
