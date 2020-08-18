@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nilso\\source\\repos\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj": {}
+    "C:\\github\\API-ASP.NET-MVC-Rental-system\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nilso\\source\\repos\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj": {
+    "C:\\github\\API-ASP.NET-MVC-Rental-system\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nilso\\source\\repos\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj",
+        "projectUniqueName": "C:\\github\\API-ASP.NET-MVC-Rental-system\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj",
         "projectName": "WebAPINotebook",
-        "projectPath": "C:\\Users\\nilso\\source\\repos\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj",
+        "projectPath": "C:\\github\\API-ASP.NET-MVC-Rental-system\\WebAPINotebook\\WebAPINotebook\\WebAPINotebook.csproj",
         "packagesPath": "C:\\Users\\nilso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nilso\\source\\repos\\WebAPINotebook\\WebAPINotebook\\obj\\",
+        "outputPath": "C:\\github\\API-ASP.NET-MVC-Rental-system\\WebAPINotebook\\WebAPINotebook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

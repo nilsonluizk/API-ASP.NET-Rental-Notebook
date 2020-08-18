@@ -50,3 +50,7 @@ WHERE
 ```html
 { "username": "Fagner", "password": "Fagner" }
 ```
+ - DB Connection:
+```html
+(localdb)\mssqllocaldb
+```
